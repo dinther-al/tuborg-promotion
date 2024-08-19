@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #22419B
+}
+
+.bg {
+  background-image: url(https://res.cloudinary.com/dupwtxgqt/image/upload/v1716620362/banner_tqtrwj.png);
+  background-size: cover;
+  background-position: center;
+}
+
+@keyframes load {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-load {
+  animation: load 2s ease-in-out forwards;
+}
+
+.zaui-checkbox-checked .zaui-checkbox-inner {
+  background-color: var(--primary-color)
+}
+
+.bg-half-circle-left {
+  transform: translate(-50%, -50%);
+  height: 2rem;
+  width: 1rem;
+  border-radius: 0 150px 150px 0;
+  background-color: #e9ebed;
+}
+
+.bg-half-circle-right {
+  transform: translate(-50%, -50%);
+  height: 2rem;
+  width: 1rem;
+  border-radius: 150px 0 0 150px;
+  background-color: #e9ebed;
+}

@@ -1,0 +1,18 @@
+{
+  "app": {
+    "title": "Tuborg Open 2 More",
+    "headerColor": "",
+    "textColor": "white",
+    "statusBarColor": "#22419B",
+    "leftButton": "none",
+    "statusBar": "transparent",
+    "selfControlLoading": false,
+    "hideAndroidBottomNavigationBar": false,
+    "hideIOSSafeAreaBottom": true,
+    "actionBarHidden": true
+  },
+  "debug": false,
+  "listCSS": [],
+  "listSyncJS": [],
+  "listAsyncJS": []
+}

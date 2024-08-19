@@ -1,0 +1,156 @@
+#app {
+  min-height: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-image: url('https://res.cloudinary.com/dupwtxgqt/image/upload/v1718352423/Mask_group_hklxia.png');
+}
+
+:root {
+  --primary-color: #22419B
+}
+
+.bg-image {
+  background-image: url('https://res.cloudinary.com/dupwtxgqt/image/upload/v1718356234/Group_11330_plad8y.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100px;
+}
+
+@keyframes load {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-load {
+  animation: load 2s ease-in-out forwards;
+}
+
+.zaui-checkbox-checked .zaui-checkbox-inner {
+  background-color: var(--primary-color)
+}
+
+.bg-half-circle-left {
+  transform: translate(-50%, -50%);
+  height: 2rem;
+  width: 1rem;
+  border-radius: 0 150px 150px 0;
+  background-color: #e9ebed;
+}
+
+.bg-half-circle-right {
+  transform: translate(-50%, -50%);
+  height: 2rem;
+  width: 1rem;
+  border-radius: 150px 0 0 150px;
+  background-color: #e9ebed;
+}
+
+.zaui-checkbox-checked .zaui-checkbox-inner {
+  background-color: #008A1E;
+}
+
+.zaui-checkbox-inner {
+  border-radius: 0px;
+}
+
+.zaui-checkbox {
+  margin-right: 0.5rem;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.zaui-checkbox-checked .zaui-checkbox-inner-check-icon {
+  color: #fff;
+  width: 16px;
+  height: 13px;
+}
+
+.zaui-input.zaui-input-textarea {
+  font-size: 1.125rem !important;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  border: black !important;
+}
+
+.bg-menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-image: url("https://s3-ap-southeast-1.amazonaws.com/pangocdp/media/8e23f11bae7e38478c3d0f99f467bb58/9w8vw-1719887397337-menu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.module-border-wrap {
+  max-width: 250px;
+  padding: 0.25rem;
+  position: relative;
+  background: linear-gradient(to right, #D4F980, #65AB24);
+}
+
+.zaui-checkbox {
+  width: 28px;
+  height: 28px;
+}
+
+.zaui-checkbox+span {
+  color: #767A7F;
+  font-size: 1.1rem;
+  line-height: 1.4em;
+  margin-left: 1rem;
+}
+
+.zaui-checkbox-inner {
+  border-radius: 2px;
+}
+
+.zaui-checkbox-checked .zaui-checkbox-inner {
+  background-color: var(--zmp-theme-color);
+}
+
+.zaui-checkbox-checked .zaui-checkbox-inner-check-icon {
+  width: 16px;
+  height: 14px;
+}
+
+.zaui-checkbox {
+  width: 28px;
+  height: 28px;
+}
+
+.zaui-checkbox+span {
+  color: #767A7F;
+  font-size: 1.1rem;
+  line-height: 1.4em;
+  margin-left: 1rem;
+}
+
+.zaui-checkbox-inner {
+  border-radius: 2px;
+}
+
+.zaui-checkbox-checked .zaui-checkbox-inner {
+  background-color: #65AB24;
+}
+
+.zaui-checkbox-wrapper {
+  margin-top: 0 !important;
+}
+
+.zaui-checkbox-checked .zaui-checkbox-inner-check-icon {
+  width: 16px;
+  height: 14px;
+}
