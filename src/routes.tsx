@@ -19,6 +19,7 @@ const Dialog = lazy(() => import("./modules/widget/dialog"));
 const HomePage = lazy(() => import("./pages/homePage"));
 
 const MyApp = () => {
+  const a = 1;
   return (
     <RecoilRoot>
       <RecoilNexus />
